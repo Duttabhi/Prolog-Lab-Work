@@ -21,6 +21,8 @@ man(socrates).
 mortal(X) :- man(X).
 
 
+% install CLISP from https://sourceforge.net/projects/clisp/
+
 
 
 
