@@ -33,10 +33,14 @@ even(X) :- X mod 2 =:= 0.
 male(ram).
 male(shyam).
 male(ghanshyam).
+male(veer).
 female(sita).
 female(rita).
 female(gita).
+female(archana).
 father(ram, shyam).
+father(ram, veer).
+father(ram, archana).
 father(shyam, ghanshyam).
 wife(sita, ram).
 wife(rita, shyam).
