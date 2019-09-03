@@ -13,5 +13,15 @@ pow(N, P, Ans) :- N > 0, P > 0, Tmp is P-1, pow(N, Tmp, Var), Ans is (N * Var).
 % than it will go on updating Var and N * Var till we finally get the answer.
 
 
+%(write-line "Hello world").
+factorial :- write('Hello World, This is my first program in Prolog!!!').
+% open prolog console type ['factorial'] than type factorial.
+
+man(socrates).
+mortal(X) :- man(X).
+
+
+
+
 
 
